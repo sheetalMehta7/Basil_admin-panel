@@ -1,0 +1,18 @@
+.btn_close {
+  color: #5d6679 !important;
+  background-color: transparent;
+  overflow: hidden;
+  border: 1px solid #adb5bd;
+  padding: 4px 12px;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btn_close svg {
+  margin-left: 10px;
+  font-size: medium;
+  color: #adb5bd;
+}

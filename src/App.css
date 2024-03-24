@@ -1,0 +1,40 @@
+.app_container {
+  display: grid;
+  grid-template-columns: 5rem auto;
+}
+
+.btn-primary {
+  min-width: 160px;
+  height: 36px;
+  padding: 1px 18px;
+  border-radius: 8px;
+  background: #377dff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.clear-btn {
+  color: #333333;
+  font-size: 12px;
+  line-height: 21.95px;
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+  .app_container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 381px) {
+}

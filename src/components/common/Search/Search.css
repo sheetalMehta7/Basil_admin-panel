@@ -1,0 +1,24 @@
+.search_form {
+  position: relative;
+}
+.search_form img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.search_form input {
+  width: 15rem;
+  padding: 10px 17px 10px 37px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  color: #000;
+}
+.search_form input::placeholder {
+  color: #adb5bd;
+}
+.search_form input:focus-visible {
+  outline-color: #377dff9d;
+}
